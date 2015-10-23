@@ -3,6 +3,8 @@
 customerApp.directive('clickconfirm', function () {
 
     return {
+        //only attribute selector
+
         restrict: 'A',
         replace: false,
         scope: false,
