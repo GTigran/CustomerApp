@@ -1,1 +1,1 @@
-This is reamde file for customer management
+This is readme file for customer management
