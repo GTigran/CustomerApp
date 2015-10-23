@@ -16,7 +16,7 @@ customerApp.directive('clickconfirm', function () {
                 var param = attrs.clickconfirmparam;
 
                 e.preventDefault();
-
+                 
                 scope.$apply(function() {
                     scope.$parent.showConfirm = true;
                     scope.$parent.confirmText = attrs.confirmtext;
