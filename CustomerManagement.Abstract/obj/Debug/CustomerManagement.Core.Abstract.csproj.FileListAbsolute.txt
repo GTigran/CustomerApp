@@ -1,0 +1,9 @@
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.Abstract\bin\Debug\CustomerManagement.Core.Abstract.dll
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.Abstract\bin\Debug\CustomerManagement.Core.Abstract.pdb
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.Abstract\bin\Debug\CustomerManagement.BusinessObjects.dll
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.Abstract\bin\Debug\CustomerManagement.Common.dll
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.Abstract\bin\Debug\CustomerManagement.BusinessObjects.pdb
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.Abstract\bin\Debug\CustomerManagement.Common.pdb
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.Abstract\obj\Debug\CustomerManagement.Core.Abstract.csprojResolveAssemblyReference.cache
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.Abstract\obj\Debug\CustomerManagement.Core.Abstract.dll
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.Abstract\obj\Debug\CustomerManagement.Core.Abstract.pdb

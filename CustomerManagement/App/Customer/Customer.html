@@ -1,0 +1,99 @@
+﻿<div ng-controller="CustomerListController" ng-init="confirm = false">
+
+    <br/>
+    <div class="row message-height">
+        <div class="col-md-1">
+            <button class="btn btn-default" ng-click="Add()"><i class="fa fa-plus-square-o"></i>New</button>
+        </div>
+
+    </div>
+
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th><label>First Name</label></th>
+                <th><label>Last Name</label></th>
+                <th><label>Company Name</label></th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody ng-repeat="customer in data.Customers">
+        <tr>
+            <td> {{ customer.FirstName }}</td>
+            <td> {{ customer.LastName }}</td>
+            <td> {{ customer.CompanyName }}</td>
+            <td>
+                <button class="btn btn-default" ng-click="Edit(customer.ID)"><i class="fa fa-edit"></i> Edit</button>
+                <button class="btn btn-default" ng-click="Details(customer.ID)"
+                            
+                         ><i class="fa fa-edit"></i> Details</button>
+                <button class="btn btn-default" clickconfirm="Delete" clickconfirmparam="{{customer.ID}}"
+                        confirmText ="Are you sure you want to delete customer?"><i class="fa fa-trash-o"></i> Delete</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <modal title="popupTitle" showModal="showModal">
+        <form name="customerForm">
+            <div class="modal-body">
+                <div class="form-horizontal">
+                    <div class="form-group" ng-class="{ 'has-error' : customerForm.firstName.$invalid && !userForm.firstName.$pristine }">
+                        <label class="control-label col-md-3">First Name</label>
+                        <div class="col-md-9">
+                            <input name="firstName" type="text" class="form-control" ng-model="data.Element.FirstName" 
+                                   ng-disabled="!IsEditMode()" required />
+                            <span class="label label-danger"></span>
+                            <p ng-show="customerForm.firstName.$invalid && !userForm.firstName.$pristine" class="help-block">First Name is required.</p>
+                        </div>
+                    </div>
+
+                    <div class="form-group" ng-class="{ 'has-error' : customerForm.lastName.$invalid && !userForm.lastName.$pristine }">
+                        <label class="control-label col-md-3">Last Name</label>
+                        <div class="col-md-9">
+                            <input type="text" name="lastName" class="form-control" ng-model="data.Element.LastName"
+                                   ng-disabled="!IsEditMode()"
+                                   required
+                                    />
+                            <span class="label label-danger"></span>
+                            <p ng-show="customerForm.lastName.$invalid && !userForm.lastName.$pristine" 
+                                class="help-block">LastName is required.</p>
+                        </div>
+                    </div>
+
+                    <div class="form-group"  ng-class="{ 'has-error' : customerForm.firstName.$invalid && !userForm.firstName.$pristine }">
+                        <label class="control-label col-md-3" >Company Name</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" name="companyName"
+                                   ng-model="data.Element.CompanyName"
+                                   ng-disabled="!IsEditMode()"
+                                   required />
+                            <span class="label label-danger"></span>
+                            <p ng-show="customerForm.companyName.$invalid && !userForm.companyName.$pristine" class="help-block">    Company name is required</p>
+                            
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-default" ng-click="SaveChanges()"
+                        ng-disabled="customerForm.$invalid"
+                        ng-show="IsEditMode() && true"><i class="fa fa-save"></i> Save changes</button>
+            </div>
+        </form>
+    </modal>
+
+    <confirmdialog showconfirm="showConfirm">
+        
+    </confirmdialog>
+
+
+
+</div>

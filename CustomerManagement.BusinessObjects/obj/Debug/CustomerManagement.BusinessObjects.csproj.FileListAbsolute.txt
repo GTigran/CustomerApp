@@ -1,0 +1,10 @@
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.BusinessObjects\bin\Debug\CustomerManagement.BusinessObjects.dll.config
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.BusinessObjects\bin\Debug\CustomerManagement.BusinessObjects.dll
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.BusinessObjects\bin\Debug\CustomerManagement.BusinessObjects.pdb
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.BusinessObjects\bin\Debug\EntityFramework.dll
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.BusinessObjects\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.BusinessObjects\bin\Debug\EntityFramework.xml
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.BusinessObjects\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.BusinessObjects\obj\Debug\CustomerManagement.BusinessObjects.csprojResolveAssemblyReference.cache
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.BusinessObjects\obj\Debug\CustomerManagement.BusinessObjects.dll
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.BusinessObjects\obj\Debug\CustomerManagement.BusinessObjects.pdb

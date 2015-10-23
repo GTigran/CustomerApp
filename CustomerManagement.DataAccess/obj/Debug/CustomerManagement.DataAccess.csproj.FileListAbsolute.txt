@@ -1,0 +1,10 @@
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.DataAccess\bin\Debug\CustomerManagement.DataAccess.dll.config
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.DataAccess\bin\Debug\CustomerManagement.DataAccess.dll
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.DataAccess\bin\Debug\CustomerManagement.DataAccess.pdb
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.DataAccess\bin\Debug\EntityFramework.dll
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.DataAccess\bin\Debug\EntityFramework.xml
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.DataAccess\obj\Debug\CustomerManagement.DataAccess.dll
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.DataAccess\obj\Debug\CustomerManagement.DataAccess.pdb
+c:\users\hrachya\documents\visual studio 2015\Projects\CustomerManagement\CustomerManagement.DataAccess\obj\Debug\CustomerManagement.DataAccess.csprojResolveAssemblyReference.cache
